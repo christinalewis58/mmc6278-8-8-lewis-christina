@@ -23,3 +23,16 @@ form.onsubmit = function(e) {
     })
 }
 
+//Display the fetched data in the weather section
+
+//1.The city and country code
+var city = document.createElement('h2')
+city.textContent = //what goes here?
+weatherSection.appendChild(city)
+
+//2.A Google Maps link to the location
+//3.A weather icon representing the current weather 
+//4.A description of the current weather condition
+//5.The actual temperature
+//6.The Perceived Temperature
+//7. The time the weather information was last updated
