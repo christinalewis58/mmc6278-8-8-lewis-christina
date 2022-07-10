@@ -33,7 +33,6 @@ form.onsubmit = function(e) {
     })
 }
     
-
 //Display the fetched data in the weather section
 function displayData(res) {
 weatherSection.innerHTML = ""  //reset input
