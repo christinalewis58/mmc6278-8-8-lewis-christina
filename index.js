@@ -10,7 +10,7 @@ form.onsubmit = function(e) {
 
     
     var userInput = weatherSearch.value
-    var queryString = "?units=imperial&appid=752927b6e41474a250396108bc4941a3=" + userInput
+    var queryString = "?units=imperial&appid=752927b6e41474a250396108bc4941a3&q=" + userInput
     var newURL = URL + queryString //concatenate url
 
         if(!userInput) return
